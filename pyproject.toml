@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "task-manager"
+version = "0.1.0"
+description = "Platforme de gestion des taches"
+authors = ["SALHI Mohamed <salhi.mohamed.sd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
